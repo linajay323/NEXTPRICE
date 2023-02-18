@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.65px;
+    /* box-sizing: border-box;
+    font-family: inherit; */
+}
+
+body {
+    min-width: 1200px;
+    /* -webkit-text-size-adjust: none;
+    font-size: 100% !important;
+    word-wrap: break-word;
+    word-break: break-all;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); */
+    outline: 0;
+    overflow: hidden;
+}
+
+body, P, h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl, dt, dd, table, th, td,
+form, fieldset, legend, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    /* -webkit-text-size-adjust: none; */
+}
+
+ol, ul, ul li, ol li {
+    list-style: none;
+}
+
+a { 
+    outline: 0;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+div {
+    /* display: block; */
+}
+
+img {
+    border-style: none;
+}
+
+/* text-align: center; */
+/* text-align 내용을 가로로 중앙에 배치 */
+/* align-items: center; */
+/* align-items 콘텐츠를 세로로 가운데 맞춤 */
+
+.box_menu_main {
+    border: 1px solid deeppink;
+    width: 1200px;
+    height: 40px;
+    margin: auto;    
+    /* top: 0; */
+    justify-content: space-between;
+    display: flex;
+}
+.menu_main_first {
+    background-color: #3f10eb;
+    width: 170px;
+    height: 40px;    
+    /* display:inline-block;     */
+}
+.menu_main_second {
+    background-color: #eb1010;
+    width: 187px;
+    height: 40px;
+    /* display:inline-block;  */
+}
+.box_menu_seb {
+    /* border: 1px solid #00c02a; */
+    /* top: 40px; */
+    width: 1200px;
+    /* height: 66px; */
+    margin: auto;
+}
+.menu_seb {
+    /* border: 1px solid #3300c0; */
+    display: flex;
+    
+}
+.menu_list {
+    background-color: #d4acbf;
+    border: 1px solid #c0006a;
+    width: 169px;
+    /* display:inline-block; */
+    padding: 30px 0;   
+}
+.menu_list > a {
+    background-color: #4e49d3;   
+}
+.box_menu_seb2 {
+    /* display: none; */
+    border: 1px solid #7a7a7a;
+    background-color:#f5f5f5;
+    width: 1198px;
+    height: 150px;
+    /* top: 106px; */
+    margin: auto;
+    
+}
+.menu_seb2 {
+    border: 1px solid #c0005a;
+    margin: 36px 0px 83px 0px;
+    display: flex;
+}
+.gnb_menu {
+    border: 1px solid #7dc000;
+    width: 169px;
+    /* height: auto; */
+    display:inline-block;
+    margin: 0;
+    
+}
+.gnb_menu > a {
+    background-color: #4ba4f7;
+    /* border: 1px solid #4ba4f7; */
+    width: 110px;
+    height: 36px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 39px;
+}
